@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="styles.css">
     <!-- 1. Load libraries -->
     <!-- Polyfill(s) for older browsers -->
+    <!-- In short: don't load zones nor reflect-metadata through system loader. 
+        Include angular2-polyfills.js using a script tag instead. 
+        More info in https://github.com/angular/angular/blob/master/modules/angular2/docs/bundles/overview.md 
+    -->
     <script src="node_modules/core-js/client/shim.min.js"></script>
     <script src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/reflect-metadata/Reflect.js"></script>
