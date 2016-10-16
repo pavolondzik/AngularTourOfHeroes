@@ -22,5 +22,5 @@ var appRoutes = [
         component: hero_detail_component_1.HeroDetailComponent
     },
 ];
-exports.routing = router_1.RouterModule.forRoot(appRoutes);
+exports.appRouting = router_1.RouterModule.forRoot(appRoutes);
 //# sourceMappingURL=app.routing.js.map
