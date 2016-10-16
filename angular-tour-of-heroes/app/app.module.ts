@@ -9,14 +9,14 @@ import { HeroesComponent }   from './heroes.component';
 import { HeroDetailComponent } from './hero-detail.component';
 
 import { HeroService } from './hero.service';
-import { appRouting } from './app.routing';
+import { appRoutingModule } from './app-routing.module';
 
 @NgModule({
     imports: [
         BrowserModule,
         FormsModule,
         HttpModule,
-        appRouting
+        appRoutingModule
     ],
     declarations: [
         AppComponent,
