@@ -68,13 +68,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\app.component.css" />
-    <Content Include="app\dashboard.component.css" />
-    <Content Include="app\dashboard.component.html" />
-    <Content Include="app\hero-detail.component.css" />
-    <Content Include="app\hero-detail.component.html" />
-    <Content Include="app\heroes.component.css" />
-    <Content Include="app\heroes.component.html" />
+    <Content Include="app\Components\App\app.component.css" />
+    <Content Include="app\Components\Dashboard\dashboard.component.css" />
+    <Content Include="app\Components\Dashboard\dashboard.component.html" />
+    <Content Include="app\Components\HeroDetail\hero-detail.component.css" />
+    <Content Include="app\Components\HeroDetail\hero-detail.component.html" />
+    <Content Include="app\Components\Heroes\heroes.component.css" />
+    <Content Include="app\Components\Heroes\heroes.component.html" />
+    <Content Include="app\Components\HeroSearch\hero-search.component.css" />
+    <Content Include="app\Components\HeroSearch\hero-search.component.html" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="tsconfig.json" />
@@ -99,15 +101,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app\app.component.ts" />
+    <TypeScriptCompile Include="app\Components\App\app.component.ts" />
     <TypeScriptCompile Include="app\app-routing.module.ts" />
-    <TypeScriptCompile Include="app\dashboard.component.ts" />
-    <TypeScriptCompile Include="app\heroes.component.ts" />
+    <TypeScriptCompile Include="app\Components\Dashboard\dashboard.component.ts" />
+    <TypeScriptCompile Include="app\Components\HeroSearch\hero-search.component.ts" />
+    <TypeScriptCompile Include="app\rxjs-extensions.ts" />
+    <TypeScriptCompile Include="app\Services\hero-search.service.ts" />
+    <TypeScriptCompile Include="app\Components\Heroes\heroes.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
-    <TypeScriptCompile Include="app\hero-detail.component.ts" />
-    <TypeScriptCompile Include="app\hero.service.ts" />
-    <TypeScriptCompile Include="app\hero.ts" />
-    <TypeScriptCompile Include="app\in-memory-data.service.ts" />
+    <TypeScriptCompile Include="app\Components\HeroDetail\hero-detail.component.ts" />
+    <TypeScriptCompile Include="app\Services\hero.service.ts" />
+    <TypeScriptCompile Include="app\Model\hero.ts" />
+    <TypeScriptCompile Include="app\Services\in-memory-data.service.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="typings\globals\core-js\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\jasmine\index.d.ts" />
